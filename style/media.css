@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+
+    .container {
+        width: 960px;
+    }
+
+    .promo_desc {
+        font-size: 19px;
+    }
+
+    .promo_title {
+        font-size: 72px;
+        line-height: 130px;
+
+    }
+
+    .gift p {
+        font-size: 19px;
+    }
+
+    .about {
+        background-image: none;
+        height: auto;
+    }
+
+    .about_text {
+        margin-bottom: 60px;
+        padding-left: 0;
+    }
+
+    .promo_subtitle {
+        font-size: 36px;
+    }
+
+    .skills_box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills {
+        height: 535px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    } 
+      .skills {
+        height: 755px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .promo_title {
+        font-size: 65px;
+    }
+
+ 
+}
+
+@media (max-width: 576px) {
+    .promo_desc {
+        font-size: 16px;
+    }
+    .promo_title {
+        font-size: 58px;
+    }
+
+    .intensive_item p{
+        font-size: 12px;
+    }
+
+    .intensive_box {
+        flex-direction: column;
+    }
+
+    .intensive_item{
+        width: 100%;
+    }
+    .skills {
+        height: 755px;
+    }
+    .skills_title{
+        font-size: 22px;
+    } 
+
+    .gift p{
+        line-height: 28px;
+        font-size: 14px;
+    }
+
+    .vebinar_title {
+    font-size: 24px;
+    }
+
+    .vebinar_desc {
+        font-size: 20px;
+    }
+}
